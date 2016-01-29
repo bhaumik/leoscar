@@ -1,5 +1,13 @@
-#wrapper {
-	width: 800px;
+#container {
 	margin: 0 auto;
 	text-align: center;
+}
+
+#content img {
+	max-width:100%
+}
+
+#refresh {
+	position: relative;
+	top: 15px;
 }
