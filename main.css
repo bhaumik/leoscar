@@ -1,3 +1,8 @@
+body {
+	background-image: url("assets/reaching.gif");
+	background-size: 100% 100%;
+}
+
 #container {
 	margin: 0 auto;
 	text-align: center;
@@ -7,7 +12,16 @@
 	max-width:100%
 }
 
+h1 {
+	color: white;
+}
+.randomgif {
+	display: none;
+}
+
 #refresh {
 	position: relative;
-	top: 15px;
+	top: 50px;
 }
+
+
