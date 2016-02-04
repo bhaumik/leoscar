@@ -1,8 +1,8 @@
 $(document).ready(function(){
-	$('#refresh').click(function(){
-		$('#defaultgif').hide();
-		var random = Math.floor(Math.random() * $('.randomgif').length);
-		$('.randomgif').hide().eq(random).show();
+	$('body').click(function(){
+		var randomNumber = Math.floor(Math.random() * 18) + 1;
+		var newSource = "assets/crying" + randomNumber + ".gif";
+		$('#homegif').attr("src", newSource);
 	});
 });
 
