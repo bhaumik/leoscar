@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('#refresh, img').click(function(){
-		var randomNumber = Math.floor(Math.random() * 18) + 1;
-		var newSource = "assets/crying" + randomNumber + ".gif";
+		var randomNumber = Math.floor(Math.random() * 16) + 1;
+		var newSource = "assets/yes" + randomNumber + ".gif";
 		$('#homegif').attr("src", newSource);
 	});
 });
