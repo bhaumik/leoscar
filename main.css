@@ -1,0 +1,50 @@
+html {
+	cursor:  url(assets/cursor.png), auto;
+}
+
+html, body, #container, #content {
+  height: 100%;
+}
+
+body {
+	background-image: url("assets/background.gif");
+	background-size: 100% 100%;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#content img {
+	max-width:100%;
+	height: 65%;
+}
+
+h1 {
+	color: white;
+}
+
+.randomgif {
+	display: none;
+}
+
+#refresh, #sadrefresh{
+	position: relative;
+	top: 50px;
+	color: #EBAB47;
+	background-color: black;
+	font-size: 16px;
+}
+
+#sadrefresh {
+	color: white;
+	background-color: #8bc4d6;
+}
+
+p, a {
+	color: white;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: 9px;
+}
